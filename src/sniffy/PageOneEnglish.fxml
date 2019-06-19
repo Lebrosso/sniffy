@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="pageOneEnglish" stylesheets="/css/SniffyStyles.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sniffy.Controller">
+    <children>
+        <Button id="buttonEnglish" layoutX="697.0" layoutY="1039.0" prefHeight="300" prefWidth="320" />
+        <Pane id="innerBoxEnglish" layoutX="14.0" layoutY="654.0" prefHeight="379.0" prefWidth="1003.0" />
+        <Pane id="bottomLeftBoxEnglish" layoutX="1" layoutY="1167.0" prefHeight="233.0" prefWidth="290.0" />
+        <Pane id="bottomRightBoxEnglish" layoutX="1296.0" layoutY="1189.0" prefHeight="211.0" prefWidth="304.0" />
+    </children>
+</AnchorPane>
+
+
