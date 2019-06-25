@@ -20,9 +20,8 @@ public class PageOneFrench {
 
         try {
             Parent root = FXMLLoader.load(getClass().getResource("PageOneFrench.fxml"));
-            Scene scene1 = new Scene(root, width, height);
-            scene1.getStylesheets().add("css/SniffyStyles.css");
-            primaryStage.setScene(scene1);
+            Scene scene = new Scene(root, width, height);
+            primaryStage.setScene(scene);
             primaryStage.show();
         } catch (Exception e) {
             e.printStackTrace();

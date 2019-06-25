@@ -4,8 +4,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.awt.*;
+
 
 public class PageOneEnglish {
 
@@ -17,12 +17,11 @@ public class PageOneEnglish {
         double width = 573;
         double height = 1018;
 
-
         try {
             Parent root = FXMLLoader.load(getClass().getResource("PageOneEnglish.fxml"));
-            Scene scene1 = new Scene(root, width, height);
-            scene1.getStylesheets().add("css/SniffyStyles.css");
-            primaryStage.setScene(scene1);
+            Scene scene = new Scene(root, width, height);
+            scene.getStylesheets().add("@/css/SniffyStyles.css");
+            primaryStage.setScene(scene);
             primaryStage.show();
         } catch (Exception e) {
             e.printStackTrace();
