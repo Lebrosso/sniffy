@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-classpath-element ../icons?>
+<?scenebuilder-classpath-element ../../src?>
+<?scenebuilder-classpath-element ../css?>
 
-<AnchorPane id="pageOneEnglish" stylesheets="/css/SniffyStyles.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sniffy.Controller">
-    <children>
-        <Button id="buttonEnglish" layoutX="697.0" layoutY="1039.0" prefHeight="300" prefWidth="320" />
-        <Pane id="innerBoxEnglish" layoutX="14.0" layoutY="654.0" prefHeight="379.0" prefWidth="1003.0" />
-        <Pane id="bottomLeftBoxEnglish" layoutX="1" layoutY="1167.0" prefHeight="233.0" prefWidth="290.0" />
-        <Pane id="bottomRightBoxEnglish" layoutX="1296.0" layoutY="1189.0" prefHeight="211.0" prefWidth="304.0" />
-    </children>
+<AnchorPane id="pageOneEnglish" minWidth="1108.0" prefHeight="1393.0" prefWidth="1108.0" stylesheets="/css/SniffyStyles.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sniffy.Controller">
+  <children>
+    <Pane id="innerBoxEnglish" layoutX="14.0" layoutY="7.0" prefHeight="379.0" prefWidth="953.0">
+      <ImageView fx:id="background" fitHeight="1969.0" fitWidth="1108.5880208333333" layoutX="0.0" layoutY="0.0" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageOne/English/Static_images/background.png" fx:id="backgroundImage" />
+        </image>
+      </ImageView>
+      <Pane id="bottomRightBoxEnglish" layoutX="767.0" layoutY="1758.0" prefHeight="211.0" prefWidth="344.0">
+        <ImageView fx:id="btmRight" fitHeight="430.4057176212524" fitWidth="441.059326171875" layoutX="-97.0" layoutY="-219.0" preserveRatio="true">
+          <image>
+            <Image url="@../icons/PageOne/English/Static_images/09-Group-ADP-corner.png" fx:id="btRight" />
+          </image>
+        </ImageView>
+      </Pane>
+      <Pane id="bottomLeftBoxEnglish" layoutX="0.0" layoutY="1853.0" prefHeight="116.0" prefWidth="472.0">
+        <children>
+          <ImageView fx:id="btmLeft" fitHeight="430.4057176212524" fitWidth="441.059326171875" layoutX="14.0" layoutY="-23.0" preserveRatio="true">
+            <image>
+              <Image url="@../icons/PageOne/English/Static_images/08-Powered-by-Sniffy-png.png" fx:id="btLeft" />
+            </image>
+          </ImageView>
+        </children>
+      </Pane>
+      <Pane layoutX="381.0" layoutY="1046.0" prefHeight="200.0" prefWidth="805.0">
+        <ImageView fx:id="smellTab" fitHeight="324.17453166591116" fitWidth="783.2405395507812" layoutX="-269.0" layoutY="-237.0" preserveRatio="true">
+          <image>
+            <Image url="@../icons/PageOne/English/Static_images/see-touch-smell-symbols.png" fx:id="smell" />
+          </image>
+        </ImageView>
+      </Pane>
+    </Pane>
+    <Button id="buttonEnglish" layoutX="697.0" layoutY="1063.0" prefHeight="276.0" prefWidth="270.0" style="-fx-background-radius: 0;&#10; -fx-background-color: transparent;" />
+    <ImageView fx:id="buttonSmell" fitHeight="249.56931097244802" fitWidth="260.9999694824219" layoutX="706.0" layoutY="1084.0" preserveRatio="true">
+      <image>
+        <Image url="@../icons/PageOne/English/Clickable_buttons/Touch-To-Smell-English.png" fx:id="buttonImage" />
+      </image>
+    </ImageView>
+  </children>
 </AnchorPane>
-
-
