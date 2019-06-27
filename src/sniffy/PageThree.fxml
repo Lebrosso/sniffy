@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="2239.999977929685" prefWidth="994.562522070315" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+    <Pane id="PageThreeInner" layoutX="68.0" layoutY="14.0" prefHeight="1607.0" prefWidth="620.0" />
+    <ImageView fitHeight="2240.0" fitWidth="1259.9999520546796" layoutX="0.0" layoutY="0.0" preserveRatio="true">
+        <image>
+            <Image url="@../icons/PageThree/02-Page-3-png.png" />
+        </image>
+    </ImageView>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="2239.999977929685" prefWidth="994.562522070315" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <Pane id="PageTwoInner" layoutX="68.0" layoutY="14.0" prefHeight="1607.0" prefWidth="620.0" />
+  <ImageView fitHeight="2240.0" fitWidth="1259.9999520546796" layoutX="0.0" layoutY="0.0" preserveRatio="true">
+    <image>
+      <Image url="@../icons/PageTwo/02-background-without-corner-png.png" />
+    </image>
+  </ImageView>
+  <Pane layoutX="882.0" layoutY="2019.0" prefHeight="221.0" prefWidth="316.0">
+    <children>
+      <ImageView fitHeight="404.9758278117605" fitWidth="414.9999694824219" layoutX="-38.0" layoutY="-184.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageTwo/03-Group-ADP-corner.png" />
+        </image>
+      </ImageView>
+    </children>
+  </Pane>
+</AnchorPane>
