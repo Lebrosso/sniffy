@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-classpath-element ../icons?>
+<?scenebuilder-classpath-element ../../src?>
+<?scenebuilder-classpath-element ../css?>
+
+<AnchorPane id="pageOneFrench" minWidth="1108.0" prefHeight="1930.0" prefWidth="1108.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sniffy.Controller">
+  <children>
+    <Pane id="innerBoxFrench" layoutX="7.0" layoutY="14.0" prefHeight="1934.0" prefWidth="1094.0">
+      <Button id="fr" layoutX="733.0" layoutY="670.0" prefHeight="732.9999000000025" prefWidth="323.7724304199219" style="-fx-background-color: transparent; &#10;-fx-background-radius: 0;&#10;" />
+      <ImageView fx:id="fre" fitHeight="309.9999694824219" fitWidth="309.9999694824219" layoutX="148.0" layoutY="21.0" preserveRatio="true" style="-fx-background-color: transparent; ">
+        <image>
+          <Image url="@../icons/PageFive/French/Clickable_buttons/01-English-flag.png" fx:id="fren" />
+        </image>
+      </ImageView>
+      <ImageView fx:id="background" fitHeight="1930.0" fitWidth="1085.625029801029" layoutX="4.0" layoutY="-7.0" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageFive/French/Static_images/03-Sentez-Les-Produits-header.png" />
+        </image>
+      </ImageView>
+      <Button id="spirit" layoutX="733.0" layoutY="670.0" prefHeight="732.9999000000025" prefWidth="323.7724304199219" style="-fx-background-color: transparent; " />
+      <ImageView fx:id="spiri" fitHeight="745.6016845703125" fitWidth="336.84543796687075" layoutX="731.0" layoutY="659.0" preserveRatio="true" style="">
+        <image>
+          <Image url="@../icons/PageFive/French/Clickable_buttons/04-spiritueux-1.png" fx:id="spi" />
+        </image>
+      </ImageView>
+      <Button id="snaking" layoutX="386.0" layoutY="673.0" prefHeight="733.0" prefWidth="311.91357421875" style="-fx-background-color: transparent; " />
+      <ImageView fx:id="snak" fitHeight="755.7835083007812" fitWidth="328.2695909253257" layoutX="377.0" layoutY="659.0" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageFive/French/Clickable_buttons/03-Snacking-1.png" fx:id="sna" />
+        </image>
+      </ImageView>
+      <Button id="beauteBtn" layoutX="39.0" layoutY="673.0" prefHeight="733.0" prefWidth="311.91357421875" style="-fx-background-color: transparent; " />
+      <ImageView fx:id="beaute" fitHeight="768.7833862304688" fitWidth="333.83891836532734" layoutX="23.0" layoutY="650.0" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageFive/French/Clickable_buttons/02-Beaute-1.png" fx:id="beauteB" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="298.1818381320225" fitWidth="320.0" layoutX="450.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageFive/French/Static_images/02-Top-Groupe-ADP-Logo.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="315.9519111073927" fitWidth="323.7724914550781" layoutX="770.0" layoutY="1597.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageFive/French/Static_images/07-Group-ADP-corner.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="137.10537719726562" fitWidth="482.9848286501902" layoutX="0.0" layoutY="1776.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageFive/French/Static_images/06-Powered-by-Sniffy-png.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="1503.5953210783603" fitWidth="845.7723999023438" layoutX="197.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../../../../../../SNIFFY/Page%205/French/Static%20images/05-See-Touch-Smell-blue-buttons.png" />
+        </image>
+      </ImageView>
+    </Pane>
+  </children>
+</AnchorPane>
