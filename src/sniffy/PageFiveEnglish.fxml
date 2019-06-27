@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?scenebuilder-classpath-element ../icons?>
+<?scenebuilder-classpath-element ../../src?>
+<?scenebuilder-classpath-element ../css?>
+
+<AnchorPane id="pageOneEnglish" minWidth="1108.0" prefHeight="1930.0" prefWidth="1108.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sniffy.Controller">
+  <children>
+    <Pane id="innerBoxEnglish" layoutX="14.0" layoutY="7.0" prefHeight="1961.0" prefWidth="1094.0">
+      <Button id="fr" layoutX="733.0" layoutY="670.0" prefHeight="732.9999000000025" prefWidth="323.7724304199219" style="-fx-background-color: transparent; &#10;-fx-background-radius: 0;&#10;" />
+      <ImageView fx:id="fre" fitHeight="167.2751007080078" fitWidth="166.24886814518885" layoutX="220.0" layoutY="82.0" preserveRatio="true" style="">
+        <image>
+          <Image url="@../icons/PageFive/English/Clickable_buttons/03-French-flag.png" fx:id="fren" />
+        </image>
+      </ImageView>
+      <ImageView fx:id="background" fitHeight="1930.0" fitWidth="1085.625029801029" layoutX="-12.0" layoutY="-7.0" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageFive/English/Static_images/01-Page-5-non-clickable-items.png" fx:id="backgroundImage" />
+        </image>
+      </ImageView>
+      <Button id="spirit" layoutX="733.0" layoutY="670.0" prefHeight="732.9999000000025" prefWidth="323.7724304199219" style="-fx-background-color: transparent; " />
+      <ImageView fx:id="spiri" fitHeight="762.7836303710938" fitWidth="326.7703499401992" layoutX="731.0" layoutY="659.0" preserveRatio="true" style="">
+        <image>
+          <Image url="@../icons/PageFive/English/Clickable_buttons/14-Beverage-1.png" fx:id="spi" />
+        </image>
+      </ImageView>
+      <Button id="snaking" layoutX="386.0" layoutY="673.0" prefHeight="733.0" prefWidth="311.91357421875" style="-fx-background-color: transparent; " />
+      <ImageView fx:id="snak" fitHeight="755.7835083007812" fitWidth="328.2695909253257" layoutX="377.0" layoutY="659.0" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageFive/English/Clickable_buttons/13-Food-1-button.png" fx:id="sna" />
+        </image>
+      </ImageView>
+      <Button id="beauteBtn" layoutX="39.0" layoutY="673.0" prefHeight="733.0" prefWidth="311.91357421875" style="-fx-background-color: transparent; " />
+      <ImageView fx:id="beaute" fitHeight="748.783447265625" fitWidth="323.7724366136162" layoutX="33.0" layoutY="662.0" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageFive/English/Clickable_buttons/12-Beauty-1.png" fx:id="beauteB" />
+        </image>
+      </ImageView>
+    </Pane>
+  </children>
+</AnchorPane>
