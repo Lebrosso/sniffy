@@ -7,8 +7,8 @@ import javafx.stage.Stage;
 
 import java.awt.*;
 
-public class PageSixFrench {
-    public PageSixFrench(Stage primaryStage){
+public class PageSevenEnglish {
+    public PageSevenEnglish(Stage primaryStage){
 
         Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
         //double width = screenSize.getWidth()/2;
@@ -17,7 +17,7 @@ public class PageSixFrench {
         double height = 1018;
 
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("PageSixFrench.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("PageSevenEnglish.fxml"));
             Scene scene = new Scene(root, width, height);
             primaryStage.setScene(scene);
             primaryStage.show();

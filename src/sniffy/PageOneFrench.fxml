@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
@@ -8,43 +7,80 @@
 <?scenebuilder-classpath-element ../../src?>
 <?scenebuilder-classpath-element ../css?>
 
-<AnchorPane id="pageOneFrench" minWidth="1108.0" prefHeight="1393.0" prefWidth="1108.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sniffy.Controller">
+<AnchorPane id="pageSixFrench" minWidth="1108.0" prefHeight="1930.0" prefWidth="1108.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sniffy.Controller">
   <children>
-    <Pane id="innerBoxFrench" layoutX="14.0" layoutY="7.0" prefHeight="379.0" prefWidth="953.0">
-      <ImageView fx:id="background" fitHeight="1969.0" fitWidth="1108.5880208333333" layoutX="-14.0" layoutY="-7.0" preserveRatio="true">
+    <Pane id="innerBoxFrench" layoutX="0.0" layoutY="0.0" prefHeight="1937.0" prefWidth="1108.0">
+      <Button id="fr" layoutX="733.0" layoutY="670.0" prefHeight="732.9999000000025" prefWidth="323.7724304199219" style="-fx-background-color: transparent; &#10;-fx-background-radius: 0;&#10;" />
+      <ImageView fx:id="background" fitHeight="1930.0" fitWidth="1085.625029801029" layoutX="-3.0" layoutY="330.0" preserveRatio="true">
         <image>
-          <Image url="@../icons/PageOne/French/Static_images/background.png" fx:id="backgroundImage" />
+          <Image url="@../icons/PageSix/French/Static_images/background-with-text.png" fx:id="backgroundImage" />
         </image>
       </ImageView>
-      <Pane id="bottomRightBoxFrench" layoutX="767.0" layoutY="1758.0" prefHeight="211.0" prefWidth="344.0">
-        <ImageView fx:id="btmRight" fitHeight="430.4057176212524" fitWidth="441.059326171875" layoutX="-97.0" layoutY="-219.0" preserveRatio="true">
-          <image>
-            <Image url="@../icons/PageOne/French/Static_images/Group-ADP-corner.png" fx:id="btRight" />
-          </image>
-        </ImageView>
-      </Pane>
-      <Pane id="bottomLeftBoxFrench" layoutX="0.0" layoutY="1853.0" prefHeight="116.0" prefWidth="472.0">
-        <children>
-          <ImageView fx:id="btmLeft" fitHeight="430.4057176212524" fitWidth="441.059326171875" layoutX="14.0" layoutY="-23.0" preserveRatio="true">
-            <image>
-              <Image url="@../icons/PageOne/French/Static_images/Powered-by-Sniffy.png" fx:id="btLeft" />
-            </image>
-          </ImageView>
-        </children>
-      </Pane>
-      <Pane layoutX="381.0" layoutY="1046.0" prefHeight="200.0" prefWidth="805.0">
-        <ImageView fx:id="smellTab" fitHeight="324.17453166591116" fitWidth="783.2405395507812" layoutX="-269.0" layoutY="-237.0" preserveRatio="true">
-          <image>
-            <Image url="@../icons/PageOne/French/Static_images/see-touch-smell-symbols.png" fx:id="smell" />
-          </image>
-        </ImageView>
-      </Pane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="103.0" layoutY="704.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Clickable_buttons/perfume-1.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="447.0" layoutY="704.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Clickable_buttons/perfume-4.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="704.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Clickable_buttons/perfume-7.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="103.0" layoutY="903.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Clickable_buttons/perfume-2.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="454.0" layoutY="903.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Clickable_buttons/perfume-5.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="903.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Clickable_buttons/perfume-8.png" />
+        </image>
+      </ImageView>
+      <ImageView id="windowSeven" fitHeight="150.0" fitWidth="200.0" layoutX="103.0" layoutY="1108.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Clickable_buttons/perfume-3.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="440.0" layoutY="1098.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Clickable_buttons/perfume-6.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="1098.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Clickable_buttons/perfume-9.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="303.0000305175781" fitWidth="310.50003921609766" layoutX="795.0" layoutY="1627.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Static_images/09-Group-ADP-corner.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="134.1483832166624" fitWidth="472.56817626953125" layoutX="6.0" layoutY="1780.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Static_images/08-Powered-by-Sniffy-png.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="168.63636286081362" fitWidth="180.97561645507812" layoutX="454.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Static_images/01-Top-Groupe-ADP-Logo.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="83.44599151611328" fitWidth="295.6666692347586" layoutX="399.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/French/Static_images/02-beaute.png" />
+        </image>
+      </ImageView>
     </Pane>
-    <Button id="buttonFrench" layoutX="697.0" layoutY="1063.0" prefHeight="276.0" prefWidth="270.0" style="-fx-background-radius: 0;&#10; -fx-background-color: transparent;" />
-    <ImageView fx:id="buttonSmell" fitHeight="249.56931097244802" fitWidth="260.9999694824219" layoutX="584.0" layoutY="1109.0" preserveRatio="true">
-      <image>
-        <Image url="@../icons/PageOne/French/Clickable_buttons/toucher-pour-sentir.png" fx:id="buttonImage" />
-      </image>
-    </ImageView>
   </children>
 </AnchorPane>
