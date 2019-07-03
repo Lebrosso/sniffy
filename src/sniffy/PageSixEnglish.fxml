@@ -10,56 +10,76 @@
 
 <AnchorPane id="pageSixEnglish" minWidth="1108.0" prefHeight="1930.0" prefWidth="1108.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sniffy.Controller">
   <children>
-    <Pane id="innerBoxEnglish" layoutX="14.0" layoutY="7.0" prefHeight="1961.0" prefWidth="1094.0">
+    <Pane id="innerBoxEnglish" layoutX="0.0" layoutY="0.0" prefHeight="1937.0" prefWidth="1108.0">
       <Button id="fr" layoutX="733.0" layoutY="670.0" prefHeight="732.9999000000025" prefWidth="323.7724304199219" style="-fx-background-color: transparent; &#10;-fx-background-radius: 0;&#10;" />
-      <ImageView fx:id="background" fitHeight="1930.0" fitWidth="1085.625029801029" layoutX="-12.0" layoutY="-7.0" preserveRatio="true">
+      <ImageView fx:id="background" fitHeight="1930.0" fitWidth="1085.625029801029" layoutX="-3.0" layoutY="330.0" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Static_images/background-with-text.png" fx:id="backgroundImage" />
         </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="103.0" layoutY="704.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-1.png" fx:id="" />
         </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="447.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="447.0" layoutY="704.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-4.png" />
         </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="768.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="704.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-7.png" />
         </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="74.0" layoutY="556.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="103.0" layoutY="903.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-2.png" />
         </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="440.0" layoutY="556.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="454.0" layoutY="903.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-5.png" />
         </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="768.0" layoutY="557.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="903.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-8.png" />
         </image>
       </ImageView>
-      <ImageView id="windowSeven" fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="752.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView id="windowSeven" fitHeight="150.0" fitWidth="200.0" layoutX="103.0" layoutY="1108.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-3.png" />
         </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="440.0" layoutY="753.0" pickOnBounds="true" preserveRatio="true" >
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="440.0" layoutY="1098.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-6.png" />
         </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="781.0" layoutY="752.0" pickOnBounds="true" preserveRatio="true" >
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="795.0" layoutY="1098.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-9.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="303.0000305175781" fitWidth="310.50003921609766" layoutX="795.0" layoutY="1627.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/English/Static_images/09-Group-ADP-corner.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="134.1483832166624" fitWidth="472.56817626953125" layoutX="6.0" layoutY="1780.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/English/Static_images/08-Powered-by-Sniffy-png.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="168.63636286081362" fitWidth="180.97561645507812" layoutX="454.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/English/Static_images/01-Top-Groupe-ADP-Logo.png" />
+        </image>
+      </ImageView>
+      <ImageView fitHeight="83.44599151611328" fitWidth="295.6666692347586" layoutX="399.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+          <Image url="@../icons/PageSix/English/Static_images/02-Beauty.png" />
         </image>
       </ImageView>
     </Pane>
