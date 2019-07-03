@@ -44,22 +44,22 @@
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="768.0" layoutY="557.0" pickOnBounds="true" preserveRatio="true">
         <image>
-          <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-6.png" />
+          <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-8.png" />
         </image>
       </ImageView>
       <ImageView id="windowSeven" fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="752.0" pickOnBounds="true" preserveRatio="true">
         <image>
-          <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-7.png" />
+          <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-3.png" />
         </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="543.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="440.0" layoutY="753.0" pickOnBounds="true" preserveRatio="true" >
         <image>
-          <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-8.png" />
+          <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-6.png" />
         </image>
       </ImageView>
-      <ImageView id="windowFour" fitHeight="150.0" fitWidth="200.0" layoutX="85.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="781.0" layoutY="752.0" pickOnBounds="true" preserveRatio="true" >
         <image>
-          <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-2.png" />
+          <Image url="@../icons/PageSix/English/Clickable_buttons/perfume-9.png" />
         </image>
       </ImageView>
     </Pane>

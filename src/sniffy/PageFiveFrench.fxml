@@ -45,7 +45,7 @@
           <Image url="@../icons/PageFive/French/Static_images/02-Top-Groupe-ADP-Logo.png" />
         </image>
       </ImageView>
-      <ImageView fitHeight="315.9519111073927" fitWidth="323.7724914550781" layoutX="770.0" layoutY="1597.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="312.2705692898475" fitWidth="320.0000305175781" layoutX="778.0" layoutY="1601.0" pickOnBounds="true" preserveRatio="true">
         <image>
           <Image url="@../icons/PageFive/French/Static_images/07-Group-ADP-corner.png" />
         </image>
@@ -57,7 +57,7 @@
       </ImageView>
       <ImageView fitHeight="1503.5953210783603" fitWidth="845.7723999023438" layoutX="197.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
         <image>
-          <Image url="@../../../../../../SNIFFY/Page%205/French/Static%20images/05-See-Touch-Smell-blue-buttons.png" />
+          <Image url="@../icons/PageFive/French/Static_images/05-See-Touch-Smell-blue-buttons.png" />
         </image>
       </ImageView>
     </Pane>
